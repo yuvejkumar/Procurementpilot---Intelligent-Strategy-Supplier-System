@@ -1,16 +1,50 @@
-# kabaadi_wala
+# ProcurementPilot – Intelligent Strategy & Supplier System
 
-A new Flutter project.
+ProcurementPilot is an intelligent procurement and supplier risk management system that helps organizations make better procurement decisions. The application uses Machine Learning to analyze supplier data, predict potential risks, and provide AI-powered insights.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+* Supplier risk prediction using Machine Learning
+* AI-powered procurement insights
+* Interactive analytics and data visualization
+* Supplier performance analysis
+* Secure Google Sign-In authentication
+* Intelligent procurement decision support
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Frontend:** Flutter
+**Authentication:** Google Sign-In
+**Machine Learning:** Python, Scikit-learn
+**AI:** Google Gemini AI
+**Data Visualization:** FL Chart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yuvejkumar/Procurementpilot---Intelligent-Strategy-Supplier-System.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Procurementpilot---Intelligent-Strategy-Supplier-System
+```
+
+Install the dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the application:
+
+```bash
+flutter run
+```
+
+## 📱 Project Objective
+
+The main objective of ProcurementPilot is to simplify procurement management by identifying potential supplier risks and providing intelligent insights that support better and more efficient business decisions.
