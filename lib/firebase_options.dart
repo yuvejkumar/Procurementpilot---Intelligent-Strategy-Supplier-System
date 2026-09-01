@@ -47,29 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA80S0ZGaSXiinZKsbdUBiemf58y3aMhE4',
-    appId: '1:555032934418:web:0681076d5b05407c89c0cb',
-    messagingSenderId: '555032934418',
-    projectId: 'kabaadi-wala-edefc',
-    authDomain: 'kabaadi-wala-edefc.firebaseapp.com',
-    storageBucket: 'kabaadi-wala-edefc.firebasestorage.app',
-    measurementId: 'G-6NMR4GRD3T',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    storageBucket: '',
+    measurementId: '',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAbT-nxvsK2hs188ujIxID116i2Tyk4-HY',
-    appId: '1:555032934418:android:0d694e8d49e9a0aa89c0cb',
-    messagingSenderId: '555032934418',
-    projectId: 'kabaadi-wala-edefc',
-    storageBucket: 'kabaadi-wala-edefc.firebasestorage.app',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC_eSm0PVCmj-541cmSROoELtMfYZkW-Zw',
-    appId: '1:555032934418:ios:e736f054f19f8a1689c0cb',
-    messagingSenderId: '555032934418',
-    projectId: 'kabaadi-wala-edefc',
-    storageBucket: 'kabaadi-wala-edefc.firebasestorage.app',
-    iosBundleId: 'com.example.kabaadiWala',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+    iosBundleId: '',
   );
 }
