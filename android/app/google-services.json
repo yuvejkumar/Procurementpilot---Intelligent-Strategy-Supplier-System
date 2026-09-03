@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "555032934418",
-    "project_id": "kabaadi-wala-edefc",
-    "storage_bucket": "kabaadi-wala-edefc.firebasestorage.app"
+    "project_number": "",
+    "project_id": "",
+    "storage_bucket": ""
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:555032934418:android:0d694e8d49e9a0aa89c0cb",
+        "mobilesdk_app_id": "",
         "android_client_info": {
-          "package_name": "com.example.kabaadi_wala"
+          "package_name": ""
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAbT-nxvsK2hs188ujIxID116i2Tyk4-HY"
+          "current_key": ""
         }
       ],
       "services": {
