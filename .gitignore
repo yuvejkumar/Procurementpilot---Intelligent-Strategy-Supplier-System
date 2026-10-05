@@ -11,7 +11,9 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
-
+.env
+.env.*
+!.env.example
 # IntelliJ related
 *.iml
 *.ipr
@@ -32,6 +34,15 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+**/build/
+
+# Local credentials and signing material
+android/app/google-services.json
+GoogleService-Info.plist
+key.properties
+*.jks
+*.keystore
+*service-account*.json
 
 # Symbolication related
 app.*.symbols
@@ -43,4 +54,4 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-procurement_risk_model.joblib 
+procurement_risk_model.joblib

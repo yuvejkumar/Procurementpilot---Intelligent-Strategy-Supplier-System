@@ -47,29 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA80S0ZGaSXiinZKsbdUBiemf58y3aMhE4',
-    appId: '1:555032934418:web:0681076d5b05407c89c0cb',
-    messagingSenderId: '555032934418',
-    projectId: 'kabaadi-wala-edefc',
-    authDomain: 'kabaadi-wala-edefc.firebaseapp.com',
-    storageBucket: 'kabaadi-wala-edefc.firebasestorage.app',
-    measurementId: 'G-6NMR4GRD3T',
+    apiKey: String.fromEnvironment('FIREBASE_API_KEY_WEB'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID_WEB'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    authDomain: String.fromEnvironment('FIREBASE_AUTH_DOMAIN'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
+    measurementId: String.fromEnvironment('FIREBASE_MEASUREMENT_ID'),
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAbT-nxvsK2hs188ujIxID116i2Tyk4-HY',
-    appId: '1:555032934418:android:0d694e8d49e9a0aa89c0cb',
-    messagingSenderId: '555032934418',
-    projectId: 'kabaadi-wala-edefc',
-    storageBucket: 'kabaadi-wala-edefc.firebasestorage.app',
+    apiKey: String.fromEnvironment('FIREBASE_API_KEY_ANDROID'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID_ANDROID'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC_eSm0PVCmj-541cmSROoELtMfYZkW-Zw',
-    appId: '1:555032934418:ios:e736f054f19f8a1689c0cb',
-    messagingSenderId: '555032934418',
-    projectId: 'kabaadi-wala-edefc',
-    storageBucket: 'kabaadi-wala-edefc.firebasestorage.app',
-    iosBundleId: 'com.example.kabaadiWala',
+    apiKey: String.fromEnvironment('FIREBASE_API_KEY_IOS'),
+    appId: String.fromEnvironment('FIREBASE_APP_ID_IOS'),
+    messagingSenderId: String.fromEnvironment('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId: String.fromEnvironment('FIREBASE_PROJECT_ID'),
+    storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
+    iosBundleId: String.fromEnvironment('FIREBASE_IOS_BUNDLE_ID'),
   );
 }

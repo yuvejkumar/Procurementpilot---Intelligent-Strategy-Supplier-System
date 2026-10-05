@@ -2,6 +2,19 @@
 
 A new Flutter project.
 
+## Local configuration
+
+Copy `.env.example` to `.env`, fill in the Firebase and Gemini values, then run
+or build with `flutter run --dart-define-from-file=.env` or
+`flutter build web --dart-define-from-file=.env`. Pass the same flag to other
+Flutter build commands. `.env` uses the JSON object format required by
+`--dart-define-from-file` and is excluded from Git.
+
+Firebase client configuration is public in a distributed app. Restrict its API
+key in Google Cloud and enforce Firebase security rules. Do not ship a Gemini
+key in a client build for production; use a backend proxy and rotate any key
+that has already been committed or distributed.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
