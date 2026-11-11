@@ -1,4 +1,4 @@
-package com.example.kabaadi_wala
+package com.procurementpilot.app
 
 import io.flutter.embedding.android.FlutterActivity
 

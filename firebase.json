@@ -3,14 +3,14 @@
     "platforms": {
       "android": {
         "default": {
-          "projectId": "kabaadi-wala-edefc",
+          "projectId": "procurement-pilot",
           "appId": "1:555032934418:android:0d694e8d49e9a0aa89c0cb",
           "fileOutput": "android/app/google-services.json"
         }
       },
       "dart": {
         "lib/firebase_options.dart": {
-          "projectId": "kabaadi-wala-edefc",
+          "projectId": "procurement-pilot",
           "configurations": {
             "android": "1:555032934418:android:0d694e8d49e9a0aa89c0cb",
             "ios": "1:555032934418:ios:e736f054f19f8a1689c0cb",
@@ -21,7 +21,6 @@
     }
   },
   "hosting": {
-    "target": "hackathon",
     "public": "build/web",
     "ignore": [
       "firebase.json",

@@ -1,15 +1,5 @@
 {
   "projects": {
-    "default": "kabaadi-wala-edefc"
-  },
-  "targets": {
-    "kabaadi-wala-edefc": {
-      "hosting": {
-        "hackathon": [
-          "wonders-of-ai"
-        ]
-      }
-    }
-  },
-  "etags": {}
+    "default": "procurement-pilot"
+  }
 }
